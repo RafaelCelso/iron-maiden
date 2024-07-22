@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Maiden';
+  src: url(maiden.ttf);
+}
+
+.navbar-nav {
+  align-items: center;
+  font-weight: 400;
+}
+
+.navbar-nav a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+}
+
+img {
+  height: 25px;
+  align-items: center;
+}
+
+.container-fluid {
+  align-items: center;
+  height: 60px;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+  }
+
+  .navbar-nav a:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .navbar-nav a {
+    width: 100%;
+  }
+}
+

@@ -46,3 +46,11 @@ img {
   height: 100%; /* ajusta a altura da imagem para preencher a div */
   width: 100%; /* ajusta a largura da imagem para preencher a div */
 }
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  margin: 0 auto; /* centraliza a imagem horizontalmente */
+  height: 100%; /* ajusta a altura da imagem para preencher a div */
+  width: 100%; /* ajusta a largura da imagem para preencher a div */
+}

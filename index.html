@@ -12,22 +12,26 @@
 <body>
 
   <!-- Início Nav bar-->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="logo.png" alt="Logo Iron Maiden"></a>
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo Iron Maiden"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link" href="#">Agenda de Shows</a>
-          <a class="nav-link" href="#">Novidades </a>
-          <a class="nav-link" href="#">Sobre nós</a>
+          <a class="nav-link" href="#agenda">Agenda de Shows</a>
+          <a class="nav-link" href="#novidades">Novidades </a>
+          <a class="nav-link" href="#sobre-nos">Sobre nós</a>
         </div>
       </div>
     </div>
   </nav>
   <!-- Fim Nav bar-->
+
+<!--Início Social Bar-->
+  
+  <!--Fim Social Bar-->
 
   <!-- Início Carousel Hero com reprodução automática-->
   <div id="carouselExampleIndicators" class="carousel slide">
@@ -67,14 +71,15 @@
   <!--Fim Anterior e Próximo Slide Carousel-->
 
   <!--Início Grid Cards-->
-  <div class="container">
+  <div class="container" id="novidades">
+    <h1>Novidades</h1>
     <div class="row">
       <div class="col-lg-4 col-md-6 col-sm-12">
         <div class="card mt-5">
           <img src="img/card-1.png" class="card-img-top" alt="Foto do cantor Bruce Dickinson">
           <div class="card-body">
             <h5 class="card-title">Bruce Dickinson apresenta o show "The Mandrake Project"</h5>
-            <p class="card-text">“The Mandrake Project World Tour” já tem datas confirmadas no Brasil.</p>
+            <p class="card-text">“The Mandrake Project World Tour” - Datas no Brasil.</p>
           </div>
         </div>
       </div>
@@ -99,6 +104,30 @@
     </div>
   </div>
   <!-- Fim Grid Cards -->
+
+<!--Início Agenda de Shows-->
+<div class="container" id="agenda">
+  <h1 id="agenda_shows">Agenda de Shows</h1>
+  <img src="img/agenda.png" class="img-fluid" alt="Agenda de Shows">
+</div>
+<!--Fim Agenda de Shows-->
+
+<!-- Início Sessão Sobre Nós -->
+<section id="sobre-nos">
+  <div class="container">
+    <h1>Sobre Nos</h1>
+    <p>
+      Iron Maiden é uma banda britânica de heavy metal formada em 1975 em Londres, Inglaterra. A banda é conhecida por suas performances ao vivo teatrais e suas músicas épicas, que frequentemente lidam com temas de história, mitologia e ficção científica.
+    </p>
+    <p>
+      A banda é liderada pelo vocalista Bruce Dickinson e pelo baixista e principal compositor Steve Harris. Iron Maiden é considerada uma das bandas mais influentes e bem-sucedidas do gênero heavy metal, com mais de 100 milhões de álbuns vendidos em todo o mundo.
+    </p>
+    <p>
+      A banda lançou seu álbum de estreia, "Iron Maiden", em 1980, e desde então tem lançado 17 álbuns de estúdio, incluindo clássicos como "The Number of the Beast", "Piece of Mind" e "Seventh Son of a Seventh Son".
+    </p>
+  </div>
+</section>
+<!-- Fim Sessão Sobre Nós -->
 
   <!--JS do Bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
